@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scuba diving</title>
+    <style>
+        body {
+            background: linear-gradient(109.6deg, rgb(17, 151, 147) 11.2%, rgb(154, 214, 212) 55.4%, rgb(255, 233, 171) 100.2%);
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+            font-weight: 900;
+            padding: 30px 0px 20px 0px;
+        }
+
+        h2 {
+          font-family: 'Courier New', Courier, monospace;
+          display: inline-flex
+          line-height 32px;
+          padding: 30px 150px 20px 20px;
+        }
+        h3 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+        }
+
+        .dvr-img {
+            width: 400px;
+            height: 400px;
+            border-radius: 20%;
+            margin: 30px 50px 50px 200px;
+            float: left;
+        }
+
+        .benefits {
+            background-color: #fde9c9;
+            padding: 10px 50px 50px 50px;
+            margin: 100px 150px 30px 150px;
+            border: solid 1px black;
+        }
+
+        .red {
+            color: red;
+        }
+        .join {
+            text-align: center;
+            font-weight: 700;
+            
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            border: 1px solid #0c084c;
+            background: #0c084c;
+            color: white;
+            font-size: 20px;
+            padding: 15px 20px;
+            border-radius: 30px;
+            box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+            transition: transform 150ms;
+        }
+
+        button:hover {
+            text-decoration: underline;
+            transform: rotate(10deg);
+        }
+        .socialMedia {
+            display: display;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        UNDERWATER<br>ADVENTURE🐡
+    </h1>
+<hr>
+        
+        <img class="dvr-img" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/608/original/IMG_1258.JPG?1624682556">
+        <h2>
+        SCUBA DIVING is an activity you can enjoy the underwater world by using special equipment 
+        that allow you to breath underwater. SCUBA is an abbreviation for Self Contained Underwater Breathing Apparatus.
+    </h2>
+
+        <h2>
+            The picture on the left is myself and sea turtle, which looks a little distracted by me. "😅Sorry!"
+        </h2>
+
+        <div class="benefits"><h2>
+            3 REASONS WHY YOU SHOULD TRY SCUBA DIVING
+        </h2>
+        <h3>
+            1. YOU HAVE THE CHANCE TO DIVE WITH MARINE CREATURES!</h3>
+        <p>
+            There will be encounters with sea creatures that you have never seen before, and you can see them <span class="red">at a very close distance</span>.
+        </p>
+    
+        <h3>2. TO BECOME AN UNDERWATER EXPLORER</h3>
+        <p><span class="red">70% of the earth surface</span> is covered by water. You will discover the new face of this planet.</p>
+
+        <h3>3. TO FEEL THE WEIGHTLESSNESS AND NO DISTRACTION</h3>
+        <p>I personally believe there is no better form of escapism than diving. While diving, all you focus is your breathing (meditation) and monitor your gauges as well as your buddy (being in the present). </p></div>
+
+    <div class="join"><p>JOIN OUR COMMUNITY</p>
+
+    <button>JOIN</button></div>
+    
+    <p>Coded by <strong><em>Miho Funayama</em></strong>
+        <br>
+        <a href="https://twitter.com/mipodiw" target="_blank"><img class="socialMedia"
+                src="https://www.pngkey.com/png/full/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png"
+                width="40"></a>
+        <a href="https://www.linkedin.com/in/miho-funayama-653b391b4/" target="_blank">
+            <img class="socialMedia"
+                src="https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png" width="40"></a>
+    </p>
+
+<script>
+    function apply() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        let newsLetter = prompt("Do you want to receive our newsletters? -> Yes or No").toUpperCase();
+
+        if (newsLetter === "YES") {
+            alert("Thank you, " + name + "! we will be in touch💃🎊");
+
+        } else {
+            alert("Feel free to contact us should you have any question. Thank you, " + name + "🐙✨");
+        }
+    }
+
+    let wannaTryButton = document.querySelector("button");
+    wannaTryButton.addEventListener("click", apply);
+
+</script>
+</body>
+</html>
