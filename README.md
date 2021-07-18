@@ -1,2 +1,2 @@
 # SheCodesLessons
-Material and projects from SheCodes
+Projects and homework from SheCodes coding bootcamp. I'm learning HTML, CSS and Javascripts.
